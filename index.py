@@ -11,7 +11,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # .envからLINEのチャンネル情報を取得
-CHANNEL_ACCESS_TOKEN = os.getenv('EvcHm8jeH0Ztd8pX9PN283wL0C6Gv0WAcdcxxNIzw1FInRtHqnxy+4Bnj0O2AN9AE3Rdj3R6aaljD4ArxOMeWFvS+zlxSyES4V9mf3q8IFFqgIWaFrIEJF10qWM3iI3PkPeHoCxqNo3F9OHmPeXzNQdB04t89/1O/w1cDnyilFU=')
+CHANNEL_ACCESS_TOKEN = os.getenv('jC0SFvsUzLw6e4NkDxi9pKdBIQ/+AlL7p5iU3W9aZRl/bSacYyfBHwNSXKlzYe+1E3Rdj3R6aaljD4ArxOMeWFvS+zlxSyES4V9mf3q8IFEDAtXVxd+urc93HDImpsyMYDRcjytqmYLQBd7cPIDJvgdB04t89/1O/w1cDnyilFU=')
 CHANNEL_SECRET = os.getenv('40f8fdd323bb523d32d82714f4735379')
 
 line_bot_api = LineBotApi(CHANNEL_ACCESS_TOKEN)
